@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <style type="text/css">
+       body{background-color:#292828;}
+        table{background-color: #454444; margin-left: auto;margin-right: auto;border-radius: 10px}
+        h1{text-align: center; font-size: 50px; color: #000000;}
+    </style>
+</head>
+<body>
+<form>
+<table>
+    <tr><td><h1>Registro del cliente</td></tr>
+   <tr><td><h2><a href="index.html">"Index |</a><a href="formulario.html"> Formulario |</a><a href="registro de tarjeta.html"> Registro de Tarjeta |</a><a href="imagenes de productos.html"> Imagenes de Productos"</a></h2><tr><td><h3>Datos basicos</h3>
+    <label for="nom">Nombre:</label><br>
+    <input type="text" id="nom" name="nom" placeholder="Nombre" maxlenght="10" required><br>
+    <label for="ape">Apellido:</label><br>
+    <input type="text" id="ape" name="ape" placeholder="Apellido" size="15" required>
+    <hr>
+    <label for="email">Correo:</label><br>
+    <input type="email" id="email" name="email" placeholder="ejemplo@pagina.com" required><br>
+    <label for="pwd">Contraseña:</label><br>
+    <input type="password" id="pwd" name="pwd" required>
+    </td></tr>
+    <tr>
+    <td>
+    <h2>Otros datos</h2>
+    <p>Genero</p>
+    <input type="radio" id="masculino" name="genero" value="m">
+    <label for="masculino">Masculino</label><br>
+
+    <input type="radio" id="femenino" name="genero" value="f">
+    <label for="femenino">Femenino</label><br>
+
+    <input type="radio" id="otro" name="genero" value="o">
+    <label for="otro">Otro</label>
+    <hr>
+    </select>
+    <p>Juguetes</p>
+    <input type="checkbox" id="m1" name="m1" value="lego">
+    <label for="m1">Lego</label><br>
+    <input type="checkbox" id="m2" name="m2" value="Barbies">
+    <label for="m2">Barbies</label><br>    
+    <input type="checkbox" id="m3" name="m3" value="Consola">
+    <label for="m3">Consola</label><br>
+    <input type="checkbox" id="m4" name="m4" value="Funko">
+    <label for="m4">Funko</label>
+    <hr>
+    <p>Escribe una sugerencia<p>
+    <textarea name="message" rows="5" cols="50">
+    
+    </textarea>
+    <br>
+    <input type="submit" value="Enviar formulario">
+    <div class="inferior"><img src="toy.png"></div>
+
+    </tr> 
+    </td>
+</table>
+</form>
+</body>
+</html>
